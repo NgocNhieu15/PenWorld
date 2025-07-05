@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fffbe6;
+    color: #333;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+header.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #ff1493, #ffd700);
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.logo-large {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 50%;
+    background: white;
+    padding: 5px;
+}
+
+.header-text {
+    flex: 1;
+    margin-left: 20px;
+    color: white;
+}
+
+.header-text h1 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+    color: white;
+    text-shadow: 1px 1px 2px #333;
+}
+
+.header-text .slogan {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 5px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff69b4;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+h2 i {
+    color: #ff69b4;
+    margin-right: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table, table td, table th {
+    border: 1px solid #ffb6c1;
+}
+
+table th {
+    background-color: #ff69b4;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffe4eb;
+}
+
+table tr:hover {
+    background-color: #ffe4eb;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
